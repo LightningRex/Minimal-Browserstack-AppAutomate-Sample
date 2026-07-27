@@ -1,0 +1,49 @@
+# --- Node / npm ---
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment variables ---
+.env
+.env.local
+.env.*.local
+
+# --- WebdriverIO-BrowserStack / test output ---
+log/
+logs/
+reports/
+allure-results/
+allure-report/
+wdio-logs/
+*.log
+
+# --- Local app binaries (if you keep them in-repo) ---
+*.apk
+*.ipa
+*.aab
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
